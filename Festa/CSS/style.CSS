@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+    }
+    body{
+        display: flex;
+        background-color: #dc2814;
+        flex-direction: column;
+        height: 100vh;/* para centralizar na página em 100% de  */
+        gap: 30px;
+    }
+    .cabecalho{
+        display: flex;/* Filhos um do lado do outro */
+        flex-direction: column;/* filho em coluna */
+        gap: 18px;/* espaço entre os filhos */
+        align-items: center;/* Alinhar os filhos */
+        
+    }
+    .cabecalho img {
+        width: 200px;/* largura da imagem */
+        height: 200px;/* Altura da imagem */
+        border-radius: 100px;/* borda  */
+        border: black 3px solid;/* Adicionar borda */
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    }
+    
+    .cabecalho h1 {
+    font-size: 20px;/* tamanho da fonte */
+    
+    
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;/* para centralizar os items no meio da página.  */
+    
+    }
+    .btns a{   
+        display: flex;
+        justify-content: center;
+        padding: 16px;/* espaçamento interno */
+        border-radius: 58px;
+        border: black 2px solid;
+        box-shadow: black 5px 5xp 0px;
+        width: 236px;
+      background-color: #bb098e;  
+      color: black;
+      text-decoration: none;/* tirar a decoração da TAG <a> */
+    
+    }
+    
+    .btns a:hover{/* para estlizar os botoões e assim que passar o mouse por cima alterar a cor. */
+    background-color: #27ef92;  
+    } 
+
+    .luiz {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+    }
+
+    .james img{
+        width: 300px;
+    }
+    .james a{
+        display: flex;
+        justify-content: center;
+        padding: 16px;/* espaçamento interno */
+        border-radius: 58px;
+        border: black 3px solid;
+        box-shadow: black 6px 6xp 0px;
+        width: 236px;
+      background-color: #f1f3eb;  
+      color: #dc2814;
+      text-decoration: none;
+    }
